@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <div className="AppLeft">
+          <h1 className="AppTitle">Get <span>insights</span> that help your business grow.</h1>
+          <p>Discover the benefits of data analytics and make better
+           descisions regarding revenue, customer experience, and 
+           overrall efficiency.</p>
+          <div className="AppObject">
+            <div className="numbers">
+              <h1>10k+</h1>
+              <p>COMPANIES</p>
+            </div>
+            <div className="numbers">
+              <h1>314</h1>
+              <p>TEMPLATES</p>
+            </div>
+            <div className="numbers">
+              <h1>12M+</h1>
+              <p>QUERIES</p>
+            </div>
+          </div>
+        </div>
+        <div className="AppRight">
+
+          </div>
+      </div>
     </div>
   );
 }
